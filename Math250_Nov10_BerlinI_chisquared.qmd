@@ -1,8 +1,10 @@
 ---
-title: "Class notes template"
+title: "Chi Squared HW"
 format: html
 embed-resources: true
 code-fold: true
+author: Ilana Berlin
+date: Nov 10th 2025
 ---
 
 ```{r}
@@ -14,10 +16,13 @@ library(readxl)
 
 at_small <-read.csv("attrition_small.csv")
 ```
-###Problem 1
+
+### Problem 1
+
 > The company claims that 10% of employees report their work/life balance as “best,” 65% report it as “better,” 20% as “good,” and only 5% as “bad.” Is this claim reasonable in light of the sample data?
 
 $H_o$: The proportions stated by the company are accurate
+
 $H_a$: The proportions stated by the company are inaccurate
 
 ```{r}
@@ -44,10 +49,12 @@ chisq.test(obs,
 ```
 If the proportions that the company claims are true than it would be reasonable to get sample data like ours. 
 
-###Problem 2
+### Problem 2
+
 > The company claims that the education field of 55% of their employees is in the life science, 20% is in marketing, 20% is in technical, and 5% is other. Is this claim reasonable in light of the sample data?
 
 $H_o$: The proportions stated by the company are accurate
+
 $H_a$: The proportions stated by the company are inaccurate
 
 ```{r}
