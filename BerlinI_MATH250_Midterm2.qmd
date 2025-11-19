@@ -125,7 +125,7 @@ cupid_body_drug %>%
        y = "Frequency", 
        fill = "Drug Use", 
        title = "Drug Use of Different Body Type", 
-       caption = "Source: OKCupid")
+       caption = "Source: OkCupid")
 
 ```
 ```{r}
@@ -171,7 +171,7 @@ chisq.test(table,
            p = c(0.052, 0.034, 0.914))
 
 ```
-There is a $2.2\times10^{-16}$ chance of getting data like the sample data above if the ratios reported by Gallup are accurate. This minuscule chance does not support Gallup's claim. The data from OkCupid is not consistent with the claims made by Gallup. 
+There is a $2.2\times10^{-16}$ chance of getting data like the sample data above if the ratios reported by Gallup are accurate. The data from OkCupid is not consistent with the claims made by Gallup. 
 
 ## Problem 6 
 
