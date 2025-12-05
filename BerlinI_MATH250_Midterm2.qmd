@@ -5,6 +5,7 @@ author: Ilana Berlin
 date: November 16 2025
 embed-resources: true
 code-fold: true
+navbar:
 ---
 
 ```{r}
