@@ -294,4 +294,4 @@ I think this show collaborative the process or making music can be, that an arti
 ## Problem 6 
 > Create a new GitHub repo that includes only your findings from problem 5. This will entail creating a new project and smaller standalone .qmd document. Include a clickable link to this repo in the work that you submit via moodle.
 
-[My Github]()
+[My Github](https://github.com/IlanaB11/My-TidyTuesday/tree/main)
