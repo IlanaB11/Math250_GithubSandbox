@@ -18,7 +18,7 @@ college <- read.csv("college.csv")
 billboard <- read.csv("billboard.csv")
 ```
 
-The first two problems use the `pressure` data set, the third and fourth use teh `college` data set. Problem 5 uses the `billboard` data set from Tidy Tuesday^[[TidyTuesday Github](https://github.com/rfordatascience/tidytuesday/tree/main/data/2025/2025-08-26)]
+The first two problems use the `pressure` data set, the third and fourth use the `college` data set. Problem 5 uses the `billboard` data set from Tidy Tuesday^[[TidyTuesday Github](https://github.com/rfordatascience/tidytuesday/tree/main/data/2025/2025-08-26)]
 
 ## Problem 1
  > Is systolic blood pressure associated with lifestyle (urban/rural/suburban)? Test at significance level  $\alpha = 0.5$ , following all standards and best-practices from class.
@@ -57,7 +57,7 @@ summary(blood_life)
 ```{r}
 TukeyHSD(blood_life)
 ```
- A post-hoc test confirms that all life styles differ from each other. 
+The low p-values between all lifestyles in a post-hoc test suggests that all life styles differ from each other. 
 
 ## Problem 2 
 >Assume the average systolic blood pressure of all Americans is 128. Does this data provide evidence that Ohioans are different? Test at level  $\alpha = 0.5$, following all standards and best-practices from class.
