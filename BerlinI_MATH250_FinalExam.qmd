@@ -274,7 +274,7 @@ Over time, more artist have helped write their own songs but less artists have b
 
 Drawing any conclusions would require further investigations outside of this project. 
 
-Despite have many popular songs that she wrote herself^[[Songs Written By Taylro Swift](https://www.businessinsider.com/taylor-swift-solo-written-songs)], all of Taylor Swift's chart topping songs were co written. 
+Despite have many popular songs that she wrote herself^[[Songs Written By Taylor Swift](https://www.businessinsider.com/taylor-swift-solo-written-songs)], all of Taylor Swift's chart topping songs were co written. 
 
 ```{r}
 #| label: taylor swift
